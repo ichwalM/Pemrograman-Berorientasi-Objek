@@ -1,17 +1,6 @@
 package tugas_eval_1;
 import java.util.Scanner;
-class Card {
-    String name;
-    String asal;
-    String merek;
-    int harga;
-    void display(){
-        System.out.println("Nama \t : "+ name);
-        System.out.println("Asal \t : "+ asal);
-        System.out.println("Merek \t : "+ merek);
-        System.out.println("harga \t : "+ harga);
-    }
-};
+
 public class Tugas_eval_1 {
     static Scanner input = new Scanner(System.in);
     static Card mobil = null;
